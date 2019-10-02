@@ -9,6 +9,7 @@ namespace _9292_opdracht.Models
     {
         public int Id { get; set; }
         public Main Main { get; set; }
+        public Coord Coord { get; set; }
         public string Name { get; set; }
     }
 }
