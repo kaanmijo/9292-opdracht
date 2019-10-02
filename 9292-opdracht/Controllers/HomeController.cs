@@ -26,7 +26,7 @@ namespace _9292_opdracht.Controllers
         [HttpPost]
         public ApiResponse GetWeather(string City)
         {
-            ApiController Controller = new ApiController();
+            ApiService Controller = new ApiService();
             ApiResponse Response = Controller.DoRequest(City);
 
             return Response;

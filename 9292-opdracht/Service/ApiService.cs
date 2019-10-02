@@ -8,7 +8,7 @@ using RestSharp;
 
 namespace _9292_opdracht.Controllers
 {
-    public class ApiController
+    public class ApiService
     {
         public ApiResponse DoRequest(string city)
         {
