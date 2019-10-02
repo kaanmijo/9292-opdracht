@@ -1,0 +1,16 @@
+﻿.logo{
+    width:100%;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+select{
+    width:100%;
+}
+
+table{
+    width:100%;
+    border:1px solid;
+    padding: 5px;
+    text-align:center;
+}

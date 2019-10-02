@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="row">
+        <div class="col-md-2">
+            <form>
+                <select id="city" name="city">
+                    <option disabled selected>
+                        Selecteer plaats
+                    </option>
+                    <option value="rotterdam">
+                        Rotterdam
+                    </option>
+                    <option value="utrecht">
+                        Utrecht
+                    </option>
+                    <option value="amsterdam">
+                        Amsterdam
+                    </option>
+                    <option value="papendrecht">
+                        Papendrecht
+                    </option>
+                    <option value="maastricht">
+                        Maastricht
+                    </option>
+                    <option value="leeuwarden">
+                        Leeuwarden
+                    </option>
+                    <option value="breda">
+                        Breda
+                    </option>
+                    <option value="tilburg">
+                        Tilburg
+                    </option>
+                    <option value="eindhoven">
+                        Eindhoven
+                    </option>
+                    <option value="arnhem">
+                        Arnhem
+                    </option>
+                </select>
+            </form>
+        </div>
+
+        <div class="col-md-8">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Plaats
+                        </th>
+                        <th>
+                            Temperatuur
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="city-body">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
