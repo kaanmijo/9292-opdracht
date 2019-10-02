@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using _9292_opdracht.Models;
+using _9292_opdracht.Service;
 
 namespace _9292_opdracht.Controllers
 {

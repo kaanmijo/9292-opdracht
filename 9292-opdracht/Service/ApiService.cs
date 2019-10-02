@@ -6,7 +6,7 @@ using _9292_opdracht.Models;
 using RestSharp;
 
 
-namespace _9292_opdracht.Controllers
+namespace _9292_opdracht.Service
 {
     public class ApiService
     {
